@@ -1,0 +1,15 @@
+{
+  "extends": [
+    /* bundled preset */
+    "html-validate:recommended",
+
+    /* npm package */
+    "my-npm-package",
+
+    /* plugin with custom preset */
+    "my-plugin:custom",
+
+    /* local file */
+    "./file"
+  ]
+}
